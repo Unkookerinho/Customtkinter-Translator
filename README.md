@@ -1,9 +1,7 @@
 # Customtkinter-Translator
-<hr>
 Language translator made in Python using customtkinter and googletrans libraries.
 
 ## Features
-<hr>
 <ul>
 <li>Translating a text and saving it in visible library</li> 
 <li>Choosing between several languages</li> 
@@ -12,15 +10,12 @@ Language translator made in Python using customtkinter and googletrans libraries
 </ul>
 
 ## Screenshots
-<hr>
 <p align="left"><img src="CtkTranslator.png"></p>
 
 ## Language
-<hr>
 Default source language is English and destination is Polish.<br>
 You can change both of them between English(en), French(fr), Italian(it), German(de), Spanish(es) and Polish(pl).<br>
 If language you want is missing, you can add it to values in this part:
-
 ```python
 
 self.source = ctk.CTkOptionMenu(master=self.frame2, width=125, corner_radius=0,
@@ -35,9 +30,9 @@ self.destination.grid(row=1, column=1, padx=8)
 
 
 ## Python Pip
-<hr>
 <ul>
 <li>pip install customtkinter</li>
 <li>pip install googletrans==3.1.0a0</li>
 </ul>
+<br>
 It needs to be that exact version of googletrans, because the newest one is not working.
